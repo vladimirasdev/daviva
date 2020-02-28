@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./main.css?3"/>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script defer src="./main.js?3"></script>
+
+        <title>Daviva testo užduotis</title>
+    </head>
+
+    <body>
+        <!--
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+                <span class="navbar-brand text-uppercase">
+                    Daviva
+                </span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    Užduočiai atlikti nauduota: HTML, CSS, Bootstrap JS, JQuery.
+                </div>
+            </nav>
+        </header>
+        -->
+
+        <main role="main" id="main">
+            <!--
+            <div class="jumbotron jumbotron-fluid p-3 m-0 back-image">
+                <div class="container-fluid">
+                    <h1 class="display-4 text-black-50">JavaScript Užduotys</h1>
+                    <p class="lead" style="font-weight:400;">Visoms užduotims reikės naudoti nuorodą: <span class="badge-light p-1 rounded font-weight-bold text-break"><a target="_blank" href="https://backend.daviva.lt/API/InformacijaTestui">'https://backend.daviva.lt/API/InformacijaTestui'</a></span> , iš kurios su <span class="badge-light p-1 rounded font-weight-bold">'GET'</span> užklausa gausite <span class="badge-light p-1 rounded font-weight-bold">'JSON'</span> formato informaciją apie automobilį. Kiekviena užklausa turėtų grąžinti skirtingą informaciją apie automobilį. Šiuo principu paremtos visos užduotys.</p>
+                </div>
+            </div>
+            -->
+
+            <div class="jumbotron bg-transparent m-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col" id="th1">Marke</th>
+                                        <th scope="col" id="th2">Modelis</th>
+                                        <th scope="col" id="th3">Metai</th>
+                                        <th scope="col" id="th4">Kaina</th>
+                                        <th scope="col" class="text-center" id="th5">Nuotraukos</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="table-responsive border-top" style="max-height: 400px; overflow-y: auto;" id="list-scroll">
+                            <table class="table border table-striped table-hover">
+                                <tbody id="list"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="row justify-content-center input-group mt-3">
+                        <div class="input-group-prepend">
+                            <input type="number" class="form-control bg-light" id="listNumber" value="1" style="width: 70px;">
+                        </div>
+                        <button type="button" class="btn btn-primary" id="addRow">Pridėti</button>
+                    </div>
+                </div>
+        </div>
+
+                
+            
+            <div class="jumbotron p-0 m-0">
+                <div class="container-fluid pb-3">
+                    <div class="row justify-content-center" id="cards"></div>
+                    <div class="row justify-content-center input-group">
+                        <div class="input-group-prepend">
+                            <input type="number" class="form-control bg-light" id="cardNumber" value="1" style="width: 70px;">
+                        </div>
+                        <button type="button" class="btn btn-primary" id="addCard">Pridėti</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--
+        <footer class="bg-light text-muted p-3">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">Atgal į viršu</a>
+                </p>
+                <p>Daviva. Used car parts</p>
+            </div>
+        </footer>
+        -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

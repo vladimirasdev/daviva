@@ -1,0 +1,13 @@
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\bin\Debug\netcoreapp3.1\Uzduotis5.exe
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\bin\Debug\netcoreapp3.1\Uzduotis5.deps.json
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\bin\Debug\netcoreapp3.1\Uzduotis5.runtimeconfig.json
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\bin\Debug\netcoreapp3.1\Uzduotis5.runtimeconfig.dev.json
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\bin\Debug\netcoreapp3.1\Uzduotis5.dll
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\bin\Debug\netcoreapp3.1\Uzduotis5.pdb
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\obj\Debug\netcoreapp3.1\Uzduotis5.AssemblyInfoInputs.cache
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\obj\Debug\netcoreapp3.1\Uzduotis5.AssemblyInfo.cs
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\obj\Debug\netcoreapp3.1\Uzduotis5.dll
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\obj\Debug\netcoreapp3.1\Uzduotis5.pdb
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\obj\Debug\netcoreapp3.1\Uzduotis5.csproj.CopyComplete
+C:\Users\vladi\source\repos\Uzduotis5\Uzduotis5\obj\Debug\netcoreapp3.1\Uzduotis5.csprojAssemblyReference.cache
